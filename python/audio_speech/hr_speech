@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd $HUSKY_PATH/data/speech/language_models/envoy_new
+asr_server -xmlrpc -port 3000
