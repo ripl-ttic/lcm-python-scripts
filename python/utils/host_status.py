@@ -63,7 +63,8 @@ while (True):
         msg.temp_C = temp_c
 
     ac_info = os.popen('acpi -a').readline()
-    msg.plugged_in = (ac_info.split()[2] == 'on-line')
+    if (len(ac_info) > 0):
+        msg.plugged_in = (ac_info.split()[2] == 'on-line')
 
     bat_info = os.popen('acpi -b').readlines()
     msg.nbatteries = len(bat_info)
