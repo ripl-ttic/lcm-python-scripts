@@ -14,6 +14,8 @@ pods_install_python_packages(${CMAKE_CURRENT_SOURCE_DIR}/python)
 # This script gets installed to ${CMAKE_INSTALL_PREFIX}/bin/hello-python
 # and automatically sets the correct python path.
 pods_install_python_script(hr-host-status utils.host_status)
+pods_install_python_script(hr-floor-change utils.floor_change)
+
 
 #pods_install_python_script(er-save-pose-val log_analysis.save_pose_values)
 
