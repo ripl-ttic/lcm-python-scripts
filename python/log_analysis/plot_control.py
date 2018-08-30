@@ -12,9 +12,9 @@ import time
 
 from optparse import OptionParser
 from lcm import EventLog
-from erlcm.trajectory_controller_aux_t import trajectory_controller_aux_t
-from erlcm.raw_odometry_msg_t import raw_odometry_msg_t
-from erlcm.velocity_msg_t import velocity_msg_t
+from ripl.trajectory_controller_aux_t import trajectory_controller_aux_t
+from ripl.raw_odometry_msg_t import raw_odometry_msg_t
+from ripl.velocity_msg_t import velocity_msg_t
 
 
 def plot_control (logfile):

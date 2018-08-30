@@ -1,16 +1,16 @@
 import lcm
 from math import *
 import pickle
-#from erlcm.pressure_msg_t import pressure_msg_t
+#from ripl.pressure_msg_t import pressure_msg_t
 from senlcm.pressure_msg_t import pressure_msg_t
-from erlcm.speech_cmd_t import speech_cmd_t
-from erlcm.floor_change_msg_t import floor_change_msg_t
+from ripl.speech_cmd_t import speech_cmd_t
+from ripl.floor_change_msg_t import floor_change_msg_t
 from bot_core.pose_t import pose_t
-from erlcm.tagged_node_t import tagged_node_t
-from erlcm.single_floor_pressure_t import single_floor_pressure_t
-from erlcm.floor_pressure_msg_t import floor_pressure_msg_t
-from erlcm.map_request_msg_t import map_request_msg_t
-from erlcm.floor_status_msg_t import floor_status_msg_t
+from ripl.tagged_node_t import tagged_node_t
+from ripl.single_floor_pressure_t import single_floor_pressure_t
+from ripl.floor_pressure_msg_t import floor_pressure_msg_t
+from ripl.map_request_msg_t import map_request_msg_t
+from ripl.floor_status_msg_t import floor_status_msg_t
 from sys import argv
 from time import time
 import cPickle

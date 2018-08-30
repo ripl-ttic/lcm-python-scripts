@@ -1,9 +1,9 @@
 #from time import time
 import time
 import lcm
-from erlcm.orc_debug_stat_msg_t import orc_debug_stat_msg_t
-from erlcm.velocity_msg_t import velocity_msg_t
-from erlcm.goal_feasibility_querry_t import goal_feasibility_querry_t
+from ripl.orc_debug_stat_msg_t import orc_debug_stat_msg_t
+from ripl.velocity_msg_t import velocity_msg_t
+from ripl.goal_feasibility_querry_t import goal_feasibility_querry_t
 import threading
 from sys import argv
 

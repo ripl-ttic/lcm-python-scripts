@@ -1,20 +1,20 @@
 from time import time
 import lcm
-from erlcm.place_node_t import place_node_t
-from erlcm.portal_node_t import portal_node_t
-from erlcm.point_t import point_t
-from erlcm.goal_feasibility_querry_t import goal_feasibility_querry_t
-from erlcm.map_request_msg_t import map_request_msg_t
-from erlcm.floor_status_msg_t import floor_status_msg_t
-from erlcm.floor_change_msg_t import floor_change_msg_t
-from erlcm.portal_list_t import portal_list_t
-from erlcm.speech_cmd_t import speech_cmd_t
-from erlcm.navigator_goal_msg_t import navigator_goal_msg_t
-from erlcm.goal_list_t import goal_list_t
-from erlcm.goal_t import goal_t
-from erlcm.topology_t import topology_t
-from erlcm.place_list_t import place_list_t
-from erlcm.place_node_t import place_node_t
+from ripl.place_node_t import place_node_t
+from ripl.portal_node_t import portal_node_t
+from ripl.point_t import point_t
+from ripl.goal_feasibility_querry_t import goal_feasibility_querry_t
+from ripl.map_request_msg_t import map_request_msg_t
+from ripl.floor_status_msg_t import floor_status_msg_t
+from ripl.floor_change_msg_t import floor_change_msg_t
+from ripl.portal_list_t import portal_list_t
+from ripl.speech_cmd_t import speech_cmd_t
+from ripl.navigator_goal_msg_t import navigator_goal_msg_t
+from ripl.goal_list_t import goal_list_t
+from ripl.goal_t import goal_t
+from ripl.topology_t import topology_t
+from ripl.place_list_t import place_list_t
+from ripl.place_node_t import place_node_t
 import threading
 import cPickle
 import pickle

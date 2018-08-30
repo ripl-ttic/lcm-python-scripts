@@ -4,7 +4,7 @@ import time
 import sys
 
 from lcm import LCM
-from erlcm.floor_change_msg_t import floor_change_msg_t
+from ripl.floor_change_msg_t import floor_change_msg_t
 
 
 

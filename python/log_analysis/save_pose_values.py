@@ -1,7 +1,7 @@
 from sys import argv
 from time import time
 import lcm
-from erlcm.pose_value_t import pose_value_t
+from ripl.pose_value_t import pose_value_t
 import threading
 
 class save_pose_values(object):

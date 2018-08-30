@@ -5,7 +5,7 @@ import sys
 import os
 
 from lcm import LCM
-from erlcm.host_status_t import host_status_t
+from ripl.host_status_t import host_status_t
 
 lcm = LCM()
 
